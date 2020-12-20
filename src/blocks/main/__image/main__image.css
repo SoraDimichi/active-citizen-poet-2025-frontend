@@ -1,0 +1,29 @@
+.main__image {
+  width: 350px;
+  height: 350px;
+  width: 36%;
+}
+
+/* @media screen and (max-width: 1030px) {
+  .main__image {
+    height: 580px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .main__image {
+    width: 768px;
+    height: 480px;
+    background-image: contain;
+    /* border: 1px solid green;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .main__image {
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid green;
+  }
+} */

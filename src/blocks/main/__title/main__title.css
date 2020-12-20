@@ -1,0 +1,27 @@
+.main__title {
+  max-width: 720px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  /* or 104% */
+  margin: 0 auto;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* @media screen and (max-width: 768px) {
+  .main__title {
+    font-size: calc(12vw);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .main__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+} */

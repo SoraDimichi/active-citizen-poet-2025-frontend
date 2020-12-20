@@ -1,0 +1,9 @@
+@import url("./__title/events__title.css");
+@import url("./__subtitle/events__subtitle.css");
+@import url("./__container/events__container.css");
+
+.events {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

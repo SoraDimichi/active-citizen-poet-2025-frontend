@@ -1,0 +1,16 @@
+.events__container{
+    margin: 0 15px;
+    max-width: 540px;
+    text-decoration: none;
+    width: 40%;
+    padding: 28px;
+    border: solid snow 1px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.events__container:hover{
+    opacity: 0.6;
+}

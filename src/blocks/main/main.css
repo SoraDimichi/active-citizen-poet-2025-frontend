@@ -1,0 +1,40 @@
+@import url(./__image/main__image.css);
+@import url(./__subtitle/main__subtitle.css);
+@import url(./__title/main__title.css);
+@import url(./__container/main__container.css);
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 984px;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .main {
+    width: 90%;
+    min-height: 962px;
+  
+    margin-bottom: 0;
+    margin-bottom: 9%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .main {
+    width: 100%;
+    min-height: 862px;
+    margin-bottom: 12%;
+
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .main {
+    max-width: 320px;
+    min-height: 406px;
+    margin-bottom: 21%;
+  }
+} */

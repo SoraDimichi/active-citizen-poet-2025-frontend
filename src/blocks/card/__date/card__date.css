@@ -1,0 +1,9 @@
+.card__date {
+  margin-top: 0;
+  width: 350px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: aliceblue;
+}

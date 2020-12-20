@@ -1,0 +1,16 @@
+.page-events__column-links{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.page-events__column-links:hover{
+    opacity: 0.6;
+}

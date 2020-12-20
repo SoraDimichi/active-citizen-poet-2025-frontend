@@ -1,0 +1,9 @@
+.page-events__title {
+    width: 99%;
+  max-width: 475px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: seashell;
+}

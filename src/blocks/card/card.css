@@ -1,0 +1,16 @@
+@import url('./__image/card__image.css');
+@import url('./__topic/card__topic.css');
+@import url('./__lyrics/card__lyrics.css');
+@import url('./__address/card__address.css');
+@import url('./__date/card__date.css');
+@import url('./__container/card__container.css');
+@import url('./__icon/card__icon.css');
+
+
+.card{
+    width: 350px;
+    height: 418px;
+    display: flex;
+    flex-direction: column;
+    /* border: greenyellow solid 1px; */
+}

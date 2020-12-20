@@ -1,0 +1,10 @@
+.card__address {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  width: 350px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: aliceblue;
+}
