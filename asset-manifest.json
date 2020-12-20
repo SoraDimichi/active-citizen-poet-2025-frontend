@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.158bfbca.chunk.css",
+    "main.js": "/static/js/main.295c7ff2.chunk.js",
+    "main.js.map": "/static/js/main.295c7ff2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.25ff6cc5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.25ff6cc5.js.map",
+    "static/js/2.c51c8534.chunk.js": "/static/js/2.c51c8534.chunk.js",
+    "static/js/2.c51c8534.chunk.js.map": "/static/js/2.c51c8534.chunk.js.map",
+    "static/js/3.f323c4dc.chunk.js": "/static/js/3.f323c4dc.chunk.js",
+    "static/js/3.f323c4dc.chunk.js.map": "/static/js/3.f323c4dc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.158bfbca.chunk.css.map": "/static/css/main.158bfbca.chunk.css.map",
+    "static/js/2.c51c8534.chunk.js.LICENSE.txt": "/static/js/2.c51c8534.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Inter-Regular.fc49d131.woff",
+    "static/media/logo_place_header.010e0b2f.svg": "/static/media/logo_place_header.010e0b2f.svg",
+    "static/media/photo-grid-atharva-tulsi.5a1df90e.jpg": "/static/media/photo-grid-atharva-tulsi.5a1df90e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25ff6cc5.js",
+    "static/js/2.c51c8534.chunk.js",
+    "static/css/main.158bfbca.chunk.css",
+    "static/js/main.295c7ff2.chunk.js"
+  ]
+}
