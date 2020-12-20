@@ -14,15 +14,9 @@ function App() {
       <main className="content">
 
         <Switch>
-          <Route exact path="/">
-            <Dashboard />
-          </Route>
-          <Route path="/events">
-            <Events />
-          </Route>
-          <Route path="/create-event">
-            <CreateEvent />
-          </Route>
+          <Route exact path="/" component={Dashboard} />
+          <Route path="/events" component={Events} />
+          <Route path="/create-event" component={CreateEvent} />
         </Switch>
 
       </main>
