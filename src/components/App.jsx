@@ -7,6 +7,16 @@ import Dashboard from './Dashboard';
 import Events from './Events';
 import CreateEvent from './CreateEvent';
 
+import api from '../utils/api';
+
+const [events, setEvents] = React.useState([]);
+
+React.useEffect(() => {
+  Promise.all([api.getInitialEvents()]).then(([initialEvents]) => {
+    setEvents(initialEvents);
+  }).catch((err) => new Error(`Ошибка: ${err}`));
+}, []);
+
 function App() {
   return (
     <div className="page">
@@ -15,7 +25,9 @@ function App() {
 
         <Switch>
           <Route exact path="/" component={Dashboard} />
-          <Route path="/events" component={Events} />
+          <Route path="/events">
+            <Events events={events} />
+          </Route>
           <Route path="/create-event" component={CreateEvent} />
         </Switch>
 
