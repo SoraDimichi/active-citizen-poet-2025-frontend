@@ -5,6 +5,9 @@
 @import url('./__date/card__date.css');
 @import url('./__container/card__container.css');
 @import url('./__icon/card__icon.css');
+@import url('./__author/card__author.css');
+@import url('./__poem/card__poem.css');
+@import url('./__line/card__line.css');
 
 
 .card{

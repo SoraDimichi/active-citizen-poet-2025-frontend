@@ -1,0 +1,7 @@
+.card__line{
+    width: 465px;
+    height: 2px;
+    border-bottom: 1px solid pink;
+    margin-top: 32px;
+    margin-bottom: 77px;
+}

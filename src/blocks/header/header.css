@@ -1,14 +1,15 @@
-@import url(./__logo/header__logo.css);
-
+@import url('./__logo/header__logo.css');
+@import url('./__link/header_link.css');
+@import url('./__links/header__links.css');
 
 .header {
   width: 94%;
   max-width: 1184px;
   height: 52px;
-
   margin-bottom: 56px;
+  margin-top: 28px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
   margin-left: auto;

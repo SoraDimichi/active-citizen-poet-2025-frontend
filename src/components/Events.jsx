@@ -2,13 +2,18 @@ import React from 'react';
 import CardFilter from './CardFilter';
 import Card from './Card';
 
-function Events() {
+function Events({ events }) {
+  console.log(events);
   return (
     <>
       <CardFilter />
-
       <ul className="elements">
-        <Card />
+        {events.map((event) => (
+          <Card
+            event={event}
+            key={event._id}
+          />
+        ))}
       </ul>
     </>
   );

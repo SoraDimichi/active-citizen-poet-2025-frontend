@@ -1,0 +1,6 @@
+.description_event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+}

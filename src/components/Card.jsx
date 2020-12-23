@@ -1,19 +1,28 @@
 import React from 'react';
+import { useRouteMatch, Link } from 'react-router-dom';
 
-function Card() {
-  // const { verse = '', link = '', address = '', date = '' } = event;
+function Card({ event }) {
+  const { url } = useRouteMatch();
+
+  const {
+    _id = '',
+    verse = '',
+    imageLink = '',
+    address = '',
+    date = '',
+    type = '',
+  } = event;
 
   return (
     <li className="card">
-      <div className="card__imageContainer" />
+      <div style={{ backgroundImage: `url('${imageLink}')` }} className="card__imageContainer" />
       <div className="card__container">
         <img src="" className="card__icon" alt="" />
-        <p className="card__topic">Экология</p>
+        <p className="card__topic">{type}</p>
       </div>
-
-      <p className="card__lyrics">блаблабла</p>
-      <p className="card__address">г. Москва, ул. Правды, д. 6</p>
-      <p className="card__date">29 декабря 10:00 — 12:00</p>
+      <Link className="card__lyrics" to={`${url}/${_id}`}>{verse}</Link>
+      <p className="card__address">{address}</p>
+      <p className="card__date">{date}</p>
     </li>
   );
 }

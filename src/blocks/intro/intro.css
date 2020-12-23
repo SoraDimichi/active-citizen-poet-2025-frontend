@@ -1,0 +1,7 @@
+@import url('./__image/intro__image.css');
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

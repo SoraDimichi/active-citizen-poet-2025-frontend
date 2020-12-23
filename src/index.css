@@ -11,3 +11,6 @@
 @import url(./blocks/card/card.css);
 @import url(./blocks/page-events/page-events.css);
 @import url(./blocks/elements/elements.css);
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/description_event/description_event.css);
+@import url(./blocks/submit/submit.css);

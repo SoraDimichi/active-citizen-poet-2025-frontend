@@ -1,6 +1,7 @@
 class Api {
-  constructor({ baseUrl }) {
+  constructor({ baseUrl, headers }) {
     this._baseUrl = baseUrl;
+    this._headers = headers;
   }
 
   _getResponseData(path, params) {
@@ -12,13 +13,20 @@ class Api {
     });
   }
 
-  getInitialEvents() {
-    return this._getResponseData('/events');
+  getInitialEvents(data) {
+    return this._getResponseData('/events', {
+      headers: this._headers,
+      method: 'GET',
+      body: JSON.stringify(data),
+    });
   }
 }
 
 const api = new Api({
-  baseUrl: 'https://localhost:27017',
+  baseUrl: 'http://localhost:3000',
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
 
 export default api;

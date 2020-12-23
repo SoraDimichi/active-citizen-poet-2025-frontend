@@ -6,29 +6,37 @@ import Footer from './Footer';
 import Dashboard from './Dashboard';
 import Events from './Events';
 import CreateEvent from './CreateEvent';
+import Event from './Event';
 
 import api from '../utils/api';
 
-const [events, setEvents] = React.useState([]);
-
-React.useEffect(() => {
-  Promise.all([api.getInitialEvents()]).then(([initialEvents]) => {
-    setEvents(initialEvents);
-  }).catch((err) => new Error(`Ошибка: ${err}`));
-}, []);
-
 function App() {
+  const [events, setEvents] = React.useState([]);
+
+  React.useEffect(() => {
+    api.getInitialEvents().then((initialEvents) => {
+      setEvents(initialEvents);
+    }).catch((err) => new Error(`Ошибка: ${err}`));
+  }, []);
+
   return (
     <div className="page">
       <Header />
       <main className="content">
 
         <Switch>
-          <Route exact path="/" component={Dashboard} />
+          <Route exact path="/">
+            <Dashboard />
+          </Route>
           <Route path="/events">
             <Events events={events} />
           </Route>
-          <Route path="/create-event" component={CreateEvent} />
+          <Route path="/events/:id">
+            <Event events={events} />
+          </Route>
+          <Route path="/create-event">
+            <CreateEvent />
+          </Route>
         </Switch>
 
       </main>
