@@ -4,15 +4,12 @@
   margin-bottom: 0;
   font-weight: bold;
   font-size: 64px;
-  font-style: normal;
+  /* font-style: normal; */
   line-height: 78px;
-  /* or 104% */
   margin: 0 auto;
   text-align: left;
 
-   color: #086788; 
- 
-
+  /* color: #086788; */
 }
 
 /* @media screen and (max-width: 768px) {

@@ -16,13 +16,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
-@media screen and (max-width: 1030px) {
+/* @media screen and (max-width: 1030px) {
   .footer {
-    /* max-width: 928px;*/
-    /* min-height: 18px;*/
+  
     margin-top: 92px;
   }
 }
@@ -35,7 +34,7 @@
     flex-direction: column;
     margin-left: 4%;
   }
-}
+} */
 
 /*@media screen and (max-width: 350px) {
   .footer {
