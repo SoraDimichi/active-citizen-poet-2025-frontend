@@ -1,9 +1,7 @@
 import React from 'react';
-import { useRouteMatch, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Card({ event }) {
-  const { url } = useRouteMatch();
-
   const {
     _id = '',
     verse = '',
@@ -20,7 +18,7 @@ function Card({ event }) {
         <img src="" className="card__icon" alt="" />
         <p className="card__topic">{type}</p>
       </div>
-      <Link className="card__lyrics" to={`${url}/${_id}`}>{verse}</Link>
+      <NavLink className="card__lyrics" to={`event/${_id}`}>{verse}</NavLink>
       <p className="card__address">{address}</p>
       <p className="card__date">{date}</p>
     </li>
