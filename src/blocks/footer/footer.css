@@ -6,14 +6,16 @@
   /* footer */
   max-width: 1184px;
   width: 94%;
-
+  height: 80px;
+  background-color:  #BFEBF5;;
   /*min-height: 18px;*/
-  margin-top: 7.3%;
+  /* margin-top: 7.3%; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 24px;
 }
 

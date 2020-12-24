@@ -1,11 +1,12 @@
 .main__subtitle {
-  max-width: 640px;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  max-width: 640px;
+  max-width: 469px;
+  font-size: 21px;
+  line-height: 25px;
   text-align: left;
-  color: #FFFFFF;
+  color: #086788;
+
+  font-style: normal;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 330px) {
