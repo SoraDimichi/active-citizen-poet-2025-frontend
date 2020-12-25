@@ -15,13 +15,13 @@
   margin-left: auto;
   margin-right: auto;
 }
-/* 
-@media screen and (max-width: 1054px) {
+
+@media screen and (max-width: 1024px) {
   .header {
-    max-width: 928px;
+   padding-left: 41px;
   }
 }
-
+/* 
 @media screen and (max-width: 810px) {
   .header {
     max-width: 720px;

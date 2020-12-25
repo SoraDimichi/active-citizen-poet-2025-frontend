@@ -6,3 +6,12 @@
   flex-direction: column;
   margin-bottom: 75px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .events__container{
+    width: 326px;
+    height: 367px;
+    padding-left: 0;
+  }
+}
