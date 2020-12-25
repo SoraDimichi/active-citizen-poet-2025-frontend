@@ -29,13 +29,13 @@ function Dashboard() {
           <p className="events__subtitle">
             Тут вы сможете найти подходящие для себя вакансии
           </p>
-          <NavLink className="events__submit" to="/events">Хочу помочь</NavLink>
+          <NavLink className="submit" to="/events">Хочу помочь</NavLink>
         </div>
         <div to="/create-event" className="events__container">
           <img src={chart} className="events__image" alt="нарисованный человек показывает на график" />
           <h3 className="events__title">Создать мероприятие</h3>
           <p className="events__subtitle">Создайте свое мероприятие и найдите помощников.</p>
-          <NavLink className="events__submit" to="/create-event">Создать мероприятие</NavLink>
+          <NavLink className="submit submit_type_red_color" to="/create-event">Создать мероприятие</NavLink>
         </div>
 
       </section>

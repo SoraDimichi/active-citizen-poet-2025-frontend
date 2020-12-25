@@ -3,7 +3,6 @@
 @import url("./__container/events__container.css");
 @import url('./__image/events__image.css');
 @import url('./__submit/events__submit.css');
-@import url('./__submit-color/events__submit-color.css');
 
 .events {
   display: flex;

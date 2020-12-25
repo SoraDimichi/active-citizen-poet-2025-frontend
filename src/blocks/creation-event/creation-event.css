@@ -1,13 +1,11 @@
-@import url('./__form/creation-event__form.css');
-@import url('./__title/creation-event__title.css');
-@import url('./__label/creation-event__label.css');
-@import url('./__input/creation-event__input.css');
-@import url('./__submit/creation-event__submit.css');
+@import url("./__form/creation-event__form.css");
+@import url("./__title/creation-event__title.css");
+@import url("./__label/creation-event__label.css");
+@import url("./__input/creation-event__input.css");
 
-
-.creation-event{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1302px;
+.creation-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 116px;
 }

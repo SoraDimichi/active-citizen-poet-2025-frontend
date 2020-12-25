@@ -83,7 +83,7 @@ export default function CreateEvent(onAddEvent) {
           {formik.touched.address && formik.errors.address
             ? <div>{formik.errors.address}</div> : null}
 
-          <button type="submit" className="creation-event__submit">
+          <button type="submit" className="submit">
             Создать мероприятие
           </button>
         </form>
