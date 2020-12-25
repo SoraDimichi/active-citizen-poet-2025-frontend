@@ -2,9 +2,9 @@
   margin-top: 0;
   margin-bottom: 0;
   max-width: 481px;
-   color: #086788; 
-  /* font-style: normal; */
-  font-weight: normal;
+  color: #086788;
   font-size: 21px;
   line-height: 25px;
+  font-family: Rubik;
+  font-weight: 300;
 }

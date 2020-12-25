@@ -1,10 +1,7 @@
 .lead__title {
-  /* font-style: normal; */
   font-weight: bold;
   font-size: 36px;
   line-height: 44px;
-  /* identical to box height */
-
   text-align: center;
-  /* color: #086788; */
+  font-family: Montserrat Alternates;
 }

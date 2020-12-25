@@ -4,12 +4,10 @@
   margin-bottom: 0;
   font-weight: bold;
   font-size: 64px;
-  /* font-style: normal; */
   line-height: 78px;
   margin: 0 auto;
   text-align: left;
-
-  /* color: #086788; */
+  font-family: Montserrat Alternates;
 }
 
 /* @media screen and (max-width: 768px) {

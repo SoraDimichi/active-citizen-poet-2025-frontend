@@ -100,7 +100,7 @@ export default function CreateEvent(onAddEvent) {
               placeholder="Выберете изображение"
             />
             <ErrorMessage name="imageLink" />
-            <button type="submit" className="creation-event__submit">
+            <button type="submit" className="submit">
               Создать мероприятие
             </button>
           </Form>

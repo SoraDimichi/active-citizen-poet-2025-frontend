@@ -1,17 +1,14 @@
 .footer__link {
-  /* __link */
-  /*max-width: 106px;*/
-  /*min-height: 18px;*/
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  /* identical to box height, or 112% */
   text-decoration: none;
   color: #086788;
   margin-right: 18px;
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .footer__link:hover {
@@ -24,7 +21,7 @@
     max-width: 106px;
   }
 }*/
-
+/* 
 @media screen and (max-width: 610px) {
   .footer__link {
     max-width: 158px;
@@ -32,7 +29,7 @@
     line-height: 24px;
     margin-bottom: 32px;
   }
-}
+} */
 
 /*
 @media screen and (max-width: 350px) {

@@ -1,9 +1,8 @@
-.creation-event__title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    color: #086788;
-    max-width: 430px;
-  
+.creation-event__title {
+  font-weight: bold;
+  font-size: 36px;
+  /* color: #086788; */
+  max-width: 495px;
+  font-family: Montserrat Alternates;
+  line-height: 44px;
 }
