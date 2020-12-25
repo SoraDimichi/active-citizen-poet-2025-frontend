@@ -39,7 +39,7 @@ function App() {
           <Route path="/events">
             <Events events={events} />
           </Route>
-          <Route path="/eve/:id">
+          <Route path="/event/:id">
             <Event events={events} />
           </Route>
           <Route path="/create-event">

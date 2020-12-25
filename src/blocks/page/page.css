@@ -1,12 +1,8 @@
 .page {
-  background-color: #2a2c2f;
+  /* background-color: #2a2c2f; */
+  background-color: #f2fcff;
+
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 1184px;
+  color: #086788;
 }

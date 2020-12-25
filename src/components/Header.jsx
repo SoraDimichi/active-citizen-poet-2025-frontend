@@ -1,5 +1,6 @@
 import React from 'react';
-import headerLogo from '../images/logo_place_header.svg';
+// import headerLogo from '../images/logo_place_header.svg';
+import headerLogo from '../images/logo_web.svg';
 
 function Header() {
   return (

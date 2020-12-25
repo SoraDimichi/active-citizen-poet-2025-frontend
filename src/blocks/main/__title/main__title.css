@@ -1,15 +1,15 @@
 .main__title {
-  max-width: 720px;
+  max-width: 461px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: bold;
   font-size: 64px;
-  line-height: 75px;
-  /* or 104% */
+  /* font-style: normal; */
+  line-height: 78px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 
-  color: #ffffff;
+  /* color: #086788; */
 }
 
 /* @media screen and (max-width: 768px) {
