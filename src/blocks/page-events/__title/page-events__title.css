@@ -1,9 +1,9 @@
 .page-events__title {
-  /* width: 99%; */
   max-width: 544px;
   font-weight: bold;
   font-size: 36px;
-  /* color: 086788; */
   font-family: Montserrat Alternates;
   line-height: 44px;
+  margin-top: 0;
+  margin-bottom: 1.8%;
 }

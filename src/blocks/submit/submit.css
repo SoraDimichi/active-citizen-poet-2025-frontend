@@ -7,13 +7,14 @@
   border-radius: 10px;
   color: #ffffff;
   width: 338px;
-  height: 60px;
+  height: 56px;
   border: 0;
   text-decoration: none;
   font-family: Rubik;
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
+  margin-top: 16px;
 }
 
 .submit:hover {

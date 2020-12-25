@@ -1,7 +1,6 @@
 .main__image {
-  width: 598px;
+  max-width: 598px;
   height: 399px;
-  width: 56%;
 }
 
 /* @media screen and (max-width: 1030px) {

@@ -35,7 +35,7 @@ function Event({ events }) {
             <p className="card__poem">{currentEvent.verse}</p>
 
             <form>
-              <button type="submit" className="submit submit__registration">Зарегистрироваться</button>
+              <button type="submit" className="submit submit_type_wide">Зарегистрироваться</button>
             </form>
           </section>
         </>
