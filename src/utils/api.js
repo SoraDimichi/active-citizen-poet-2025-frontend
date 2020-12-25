@@ -20,6 +20,29 @@ class Api {
       body: JSON.stringify(data),
     });
   }
+
+  postEvent(item) {
+    return fetch(`${this.baseUrl}/events`, {
+      method: 'POST',
+      headers: this.headers,
+      body: JSON.stringify({
+        name: item.name,
+        imageLink: item.imageLink,
+        owner: item.owner,
+        date: item.date,
+        address: item.address,
+        type: item.type,
+        verse: item.verse,
+      }),
+    })
+      .then((res) => {
+        if (res.ok) {
+          return res.json();
+        }
+        return Promise.reject(new Error(`Ошибка: ${res.status}`));
+      })
+      .then((res) => res);
+  }
 }
 
 const api = new Api({

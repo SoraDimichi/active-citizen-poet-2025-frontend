@@ -19,6 +19,14 @@ function App() {
     }).catch((err) => new Error(`Ошибка: ${err}`));
   }, []);
 
+  function handleAddEventSubmit(data) {
+    api.postEvent(data)
+      .then((newEvent) => {
+        setEvents([newEvent, ...events]);
+      })
+      .catch((err) => console.log(err));
+  }
+
   return (
     <div className="page">
       <Header />
@@ -31,11 +39,11 @@ function App() {
           <Route path="/events">
             <Events events={events} />
           </Route>
-          <Route path="/events/:id">
+          <Route path="/eve/:id">
             <Event events={events} />
           </Route>
           <Route path="/create-event">
-            <CreateEvent />
+            <CreateEvent onAddEvent={handleAddEventSubmit} />
           </Route>
         </Switch>
 
