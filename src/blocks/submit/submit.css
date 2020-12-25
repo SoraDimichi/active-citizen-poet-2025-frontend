@@ -1,9 +1,17 @@
-@import url("./__registration/submit__registration.css");
+
 
 .submit {
-  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #f96900;
+  border-radius: 10px;
+  color: #FFFFFF;
+  width: 338px;
   height: 60px;
   border: 0;
+  text-decoration: none;
 }
 
 .submit:hover {

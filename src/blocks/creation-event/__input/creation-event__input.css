@@ -1,5 +1,8 @@
-.creation-event__input{
-    height: 60px;
-    margin-bottom: 52px;
-    width: 99%;
+.creation-event__input {
+  height: 60px;
+  margin-bottom: 52px;
+  width: 99%;
+  border: 2px solid #d3e0f5;
+  box-sizing: border-box;
+  border-radius: 15px;
 }

@@ -16,3 +16,5 @@
 @import url(./blocks/description_event/description_event.css);
 @import url(./blocks/submit/submit.css);
 @import url(./blocks/lead/lead.css);
+@import url(./blocks/submit/_type/submit_type_registration.css);
+@import url(./blocks/submit/_type/submit_type_red_color.css);
