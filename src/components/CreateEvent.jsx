@@ -1,8 +1,14 @@
 import React from 'react';
-import { useFormik } from 'formik';
+import {
+  Form,
+  Formik,
+  Field,
+  ErrorMessage,
+} from 'formik';
 import * as Yup from 'yup';
 
 export default function CreateEvent(onAddEvent) {
+  const avaliableMimeType = ['application/pdf', 'image/jpeg', 'image/png'];
   const validationSchema = Yup.object().shape({
     name: Yup.string()
       .min(2, 'Название должно быть не короче двух символов')
@@ -16,77 +22,89 @@ export default function CreateEvent(onAddEvent) {
       .min(10, 'Адрес должен быть не короче десяти символов')
       .max(100, 'Адрес не может быть длиннее 100 символов')
       .required('Заполните это поле'),
+    imageLink: Yup.string()
+      .oneOf(avaliableMimeType, 'Недопустимый тип файла'),
   });
-  const formik = useFormik({
-    initialValues: {
-      name: '',
-      owner: '',
-      date: '',
-      address: '',
-      type: '',
-    },
-    onSubmit: (values) => onAddEvent(values),
-    validationSchema,
-  });
-  console.log(formik.values);
+  const initialValues = {
+    name: '',
+    owner: '',
+    date: '',
+    address: '',
+    type: '',
+  };
+  const onSubmit = (values) => onAddEvent(values);
   return (
     <>
       <section className="creation-event">
         <h2 className="creation-event__title">Создайте мероприятие </h2>
-        <form className="creation-event__form" name="" onSubmit={formik.handleSubmit}>
-          <p className="creation-event__label">Название мероприятия</p>
-          <input
-            type="text"
-            value={formik.values.name}
-            id="name"
-            name="name"
-            className="creation-event__input"
-            placeholder="Введите название мероприятия"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-          />
-          {formik.touched.name && formik.errors.name ? <div>{formik.errors.name}</div> : null}
-          <p className="creation-event__label">Организатор</p>
-          <input
-            type="text"
-            value={formik.values.owner}
-            id="owner"
-            name="owner"
-            className="creation-event__input"
-            placeholder="Введите название мероприятия"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-          />
-          {formik.touched.owner && formik.errors.owner ? <div>{formik.errors.owner}</div> : null}
-
-          <p className="creation-event__label">Дата проведения</p>
-          <input
-            type="date"
-            value={formik.values.date}
-            id="date"
-            name="date"
-            className="creation-event__input"
-            placeholder="Выберете дату"
-            onChange={formik.handleChange}
-          />
-          <p className="creation-event__label">Адрес проведения</p>
-          <input
-            type="text"
-            value={formik.values.address}
-            id="address"
-            name="address"
-            className="creation-event__input"
-            placeholder="Введите адрес мероприятия"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-          />
-          {formik.touched.address && formik.errors.address
-            ? <div>{formik.errors.address}</div> : null}
-
-          <button type="submit" className="creation-event__submit">
-            Создать мероприятие
-          </button>
-        </form>
+        <Formik
+          initialValues={initialValues}
+          validationSchema={validationSchema}
+          onSubmit={onSubmit}
+        >
+          <Form className="creation-event__form" name="">
+            <p className="creation-event__label">Название мероприятия</p>
+            <Field
+              type="text"
+              id="name"
+              name="name"
+              className="creation-event__input"
+              placeholder="Введите название мероприятия"
+            />
+            <ErrorMessage name="name" />
+            <p className="creation-event__label">Категория</p>
+            <Field
+              name="type"
+              as="select"
+              id="type"
+              className="creation-event__input"
+              placeholder="Выберете категорию"
+            >
+              <option hidden selected> Выберете категорию </option>
+              <option value="Экология">Экология</option>
+              <option value="Транспорт">Транспорт</option>
+              <option value="Животные">Животные</option>
+              <option value="Пожилые">Пожилые</option>
+            </Field>
+            <p className="creation-event__label">Организатор</p>
+            <Field
+              type="text"
+              id="owner"
+              name="owner"
+              className="creation-event__input"
+              placeholder="Введите ФИО организатора"
+            />
+            <ErrorMessage name="owner" />
+            <p className="creation-event__label">Дата проведения</p>
+            <Field
+              type="date"
+              id="date"
+              name="date"
+              className="creation-event__input"
+              placeholder="Выберете дату"
+            />
+            <p className="creation-event__label">Адрес проведения</p>
+            <Field
+              type="text"
+              id="address"
+              name="address"
+              className="creation-event__input"
+              placeholder="Введите адрес мероприятия"
+            />
+            <ErrorMessage name="address" />
+            <Field
+              type="url"
+              id="imageLink"
+              name="imageLink"
+              className="creation-event__input"
+              placeholder="Выберете изображение"
+            />
+            <ErrorMessage name="imageLink" />
+            <button type="submit" className="creation-event__submit">
+              Создать мероприятие
+            </button>
+          </Form>
+        </Formik>
       </section>
     </>
   );
