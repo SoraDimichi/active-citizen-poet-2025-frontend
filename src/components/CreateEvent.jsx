@@ -17,15 +17,12 @@ export default function CreateEvent({ onAddEvent }) {
       .max(40, 'Название не может быть длиннее 40 символов'),
     owner: Yup.string()
       .min(2, 'Имя должно быть не короче двух символов')
-      .max(50, 'Имя не может быть длиннее 50 символов')
-      .required('Заполните это поле'),
+      .max(50, 'Имя не может быть длиннее 50 символов'),
     address: Yup.string()
       .min(10, 'Адрес должен быть не короче десяти символов')
-      .max(100, 'Адрес не может быть длиннее 100 символов')
-      .required('Заполните это поле'),
+      .max(100, 'Адрес не может быть длиннее 100 символов'),
     imageLink: Yup.string()
-      .oneOf(avaliableMimeType, 'Недопустимый тип файла')
-      .required('Заполните это поле'),
+      .url(avaliableMimeType, 'Недопустимый тип файла'),
   });
   const initialValues = {
     name: '',
@@ -33,6 +30,7 @@ export default function CreateEvent({ onAddEvent }) {
     date: '',
     address: '',
     type: '',
+    imageLink: '',
   };
   const onSubmit = (values) => onAddEvent(values);
   return (
@@ -60,9 +58,8 @@ export default function CreateEvent({ onAddEvent }) {
               as="select"
               id="type"
               className="creation-event__input"
-              placeholder="Выберете категорию"
             >
-              <option hidden selected> Выберете категорию </option>
+              <option hidden selected> Выберите категорию </option>
               <option value="Экология">Экология</option>
               <option value="Транспорт">Транспорт</option>
               <option value="Животные">Животные</option>

@@ -22,7 +22,7 @@ class Api {
   }
 
   postEvent(item) {
-    return fetch(`${this.baseUrl}/events`, {
+    return fetch(`${this._baseUrl}/events`, {
       method: 'POST',
       headers: this.headers,
       body: JSON.stringify({
@@ -32,7 +32,6 @@ class Api {
         date: item.date,
         address: item.address,
         type: item.type,
-        verse: item.verse,
       }),
     })
       .then((res) => {

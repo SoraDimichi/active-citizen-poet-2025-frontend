@@ -26,6 +26,10 @@ function App() {
     setSubmitEventPopupOpen(true);
   }
 
+  function closePopup() {
+    setSubmitEventPopupOpen(false);
+  }
+
   function handleAddEventSubmit(data) {
     api.postEvent(data)
       .then((newEvent) => {
@@ -57,7 +61,7 @@ function App() {
 
       </main>
       <Footer />
-      <PopupSubmitEvent isOpen={isSubmitEventPopupOpen} />
+      <PopupSubmitEvent isOpen={isSubmitEventPopupOpen} onClose={closePopup} />
     </div>
   );
 }
