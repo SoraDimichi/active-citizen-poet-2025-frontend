@@ -7,6 +7,7 @@ import Dashboard from './Dashboard';
 import Events from './Events';
 import CreateEvent from './CreateEvent';
 import Event from './Event';
+import PopupSubmitEvent from './PopupSubmitEvent';
 
 import api from '../utils/api';
 
@@ -19,10 +20,17 @@ function App() {
     }).catch((err) => new Error(`Ошибка: ${err}`));
   }, []);
 
+  const [isSubmitEventPopupOpen, setSubmitEventPopupOpen] = React.useState(false);
+
+  function onSubmitEvent() {
+    setSubmitEventPopupOpen(true);
+  }
+
   function handleAddEventSubmit(data) {
     api.postEvent(data)
       .then((newEvent) => {
         setEvents([newEvent, ...events]);
+        onSubmitEvent();
       })
       .catch((err) => console.log(err));
   }
@@ -49,7 +57,7 @@ function App() {
 
       </main>
       <Footer />
-
+      <PopupSubmitEvent isOpen={isSubmitEventPopupOpen} />
     </div>
   );
 }

@@ -7,13 +7,14 @@ import {
 } from 'formik';
 import * as Yup from 'yup';
 
-export default function CreateEvent(onAddEvent) {
+export default function CreateEvent({ onAddEvent }) {
   const avaliableMimeType = ['application/pdf', 'image/jpeg', 'image/png'];
   const validationSchema = Yup.object().shape({
     name: Yup.string()
+      .matches(/^(?:[а-яёА-ЯЁ]+\s+){3}[а-яёА-ЯЁ]+$|^(?:[а-яёА-ЯЁ]+\s+){2}[а-яёА-ЯЁ]+$|^(?:[а-яёА-ЯЁ]+\s+)[а-яёА-ЯЁ]+$|^[а-яёА-ЯЁ]+$/, 'Название должно быть на русском и не больше 4 слов')
+      .required('Заполните это поле')
       .min(2, 'Название должно быть не короче двух символов')
-      .max(50, 'Название не может быть длиннее 50 символов')
-      .required('Заполните это поле'),
+      .max(40, 'Название не может быть длиннее 40 символов'),
     owner: Yup.string()
       .min(2, 'Имя должно быть не короче двух символов')
       .max(50, 'Имя не может быть длиннее 50 символов')
@@ -23,7 +24,8 @@ export default function CreateEvent(onAddEvent) {
       .max(100, 'Адрес не может быть длиннее 100 символов')
       .required('Заполните это поле'),
     imageLink: Yup.string()
-      .oneOf(avaliableMimeType, 'Недопустимый тип файла'),
+      .oneOf(avaliableMimeType, 'Недопустимый тип файла')
+      .required('Заполните это поле'),
   });
   const initialValues = {
     name: '',
@@ -92,6 +94,7 @@ export default function CreateEvent(onAddEvent) {
               placeholder="Введите адрес мероприятия"
             />
             <ErrorMessage name="address" />
+            <p className="creation-event__label">Изображение</p>
             <Field
               type="url"
               id="imageLink"
