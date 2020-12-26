@@ -1,3 +1,11 @@
-.submit_type_red_color{
-    background: #F9005A;
+.submit_type_red_color {
+  background: #f9005a;
+  /* margin-top: 41px; */
+  margin-top: 8.2%;
+}
+
+@media screen and (max-width: 1024px) {
+  .submit_type_red_color {
+    margin-top: 18%;
+  }
 }

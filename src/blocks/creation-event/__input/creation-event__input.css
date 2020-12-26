@@ -5,4 +5,16 @@
   border: 2px solid #d3e0f5;
   box-sizing: border-box;
   border-radius: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+   color: #6c757d; /*That color is necessary here!*/ 
+}
+
+.creation-event__input::placeholder {
+  color: #6c757d; /*That color is necessary here!*/
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  /* font-family: Rubik; */
 }

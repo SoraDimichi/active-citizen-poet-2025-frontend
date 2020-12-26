@@ -1,11 +1,17 @@
 .events__container {
-  margin: 0 15px;
-  max-width: 540px;
-  width: 40%;
-  padding: 28px;
+  width: 506px;
   height: 442px;
+  padding-left: 36px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   margin-bottom: 75px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .events__container{
+    width: 326px;
+    height: 367px;
+    padding-left: 0;
+  }
 }

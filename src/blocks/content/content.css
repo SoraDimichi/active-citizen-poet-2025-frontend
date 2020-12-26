@@ -2,5 +2,11 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 1184px;
+  max-width: 1110px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    padding-left: 43px;
+  }
 }

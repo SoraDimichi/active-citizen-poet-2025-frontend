@@ -7,7 +7,7 @@ function CardFilter() {
       <nav>
         <ul className="page-events__content-info">
           <li className="page-events__column-links">Экология</li>
-          <li className="page-events__column-links">Бездомные люди</li>
+          <li className="page-events__column-links">Транспорт</li>
           <li className="page-events__column-links">Искусство</li>
           <li className="page-events__column-links">Животные</li>
         </ul>

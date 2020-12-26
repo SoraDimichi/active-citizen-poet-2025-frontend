@@ -1,8 +1,10 @@
 .events__title {
   max-width: 275px;
-   color: #086788; 
-  font-weight: bold;
+  /* color: #086788; */
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 16px;
+  margin-top: 0;
+  /* font-family: Rubik; */
+  font-weight: 500;
 }

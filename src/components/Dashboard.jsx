@@ -25,14 +25,15 @@ function Dashboard() {
         <div className="events__container">
           <img src={group} className="events__image" alt="две персоны пускают самолетик" />
           <h3 className="events__title">Хочу помочь</h3>
-          <p className="events__subtitle">Хотите помочь делом -- вам сюда.</p>
-          <p className="events__subtitle">
-            Тут вы сможете найти подходящие для себя вакансии
-          </p>
+          <div className="test">
+            <p className="events__subtitle">Хотите помочь делом &mdash; вам сюда.</p>
+            <p className="events__subtitle">Тут вы сможете найти подходящие для себя вакансии</p>
+          </div>
           <NavLink className="submit" to="/events">Хочу помочь</NavLink>
         </div>
         <div to="/create-event" className="events__container">
           <img src={chart} className="events__image" alt="нарисованный человек показывает на график" />
+          {/* <h3 className="events__title events__title_indent">Создать мероприятие</h3> */}
           <h3 className="events__title">Создать мероприятие</h3>
           <p className="events__subtitle">Создайте свое мероприятие и найдите помощников.</p>
           <NavLink className="submit submit_type_red_color" to="/create-event">Создать мероприятие</NavLink>

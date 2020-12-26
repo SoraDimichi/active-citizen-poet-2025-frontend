@@ -3,17 +3,13 @@
   font-size: 21px;
   line-height: 25px;
   text-align: left;
-  /* color: #086788; */
-
-  /* font-style: normal; */
   font-weight: 300;
+  /* font-family: Rubik; */
 }
 
-@media screen and (max-width: 330px) {
+/* @media screen and (max-width: 1024px) {
   .main__subtitle {
-    max-width: 288px;
-    font-size: 16px;
-    line-height: 20px;
-    /* border: 1px solid green;*/
+
+    
   }
-}
+}  */

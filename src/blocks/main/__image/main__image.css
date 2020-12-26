@@ -1,15 +1,14 @@
 .main__image {
   width: 598px;
   height: 399px;
-  width: 56%;
 }
 
-/* @media screen and (max-width: 1030px) {
+ @media screen and (max-width: 1024px) {
   .main__image {
-    height: 580px;
+    width: 689px;
   }
 }
-
+/*
 @media screen and (max-width: 770px) {
   .main__image {
     width: 768px;

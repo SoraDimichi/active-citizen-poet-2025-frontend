@@ -1,16 +1,16 @@
-.page-events__column-links{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    /* identical to box height, or 112% */
-    text-decoration: none;
-    color: 086788;
-    margin-right: 18px;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+.page-events__column-links {
+  font-weight: normal;
+  text-decoration: none;
+  color: 086788;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  /* font-family: Rubik; */
+  font-size: 18px;
+  line-height: 21px;
 }
 
-.page-events__column-links:hover{
-    opacity: 0.6;
+.page-events__column-links:hover {
+  opacity: 0.6;
 }
