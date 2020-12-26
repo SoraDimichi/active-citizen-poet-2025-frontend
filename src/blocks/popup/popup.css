@@ -1,17 +1,17 @@
-@import url('./__images/popup__images.css');
-@import url('./__container/popup__container.css');
+@import url("./__images/popup__images.css");
+@import url("./__container/popup__container.css");
+@import url('./__title/popup__title.css');
+@import url('./__subtitle/popup__subtitle.css');
 
 .popup {
-
   width: 980px;
-  height: 634px;
+  height: 581px;
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
   visibility: hidden;
   opacity: 0;
-  border: steelblue 1px solid;
+  background: #ffffff;
+  border-radius: 20px;
 }
-
-
