@@ -31,31 +31,38 @@ function App() {
     setSubmitEventPopupOpen(false);
   }
 
-  const dataSmth = (frase) => {
+  const getVerse = async (frase) => {
     const info = { name: '', verse: '' };
-    api.getRandomVerse().then((verseGot) => {
-      const currentName = verseGot.fields.name;
-      const eVerse = new EncryptVerse(frase, verseGot.fields.text);
-      if (eVerse.checkVerse() !== undefined) {
-        const currentVerse = eVerse.replaceChars();
-        info.name = currentName;
-        info.verse = currentVerse;
-      } else dataSmth(frase);
-    }).catch((err) => new Error(`Ошибка: ${err}`));
+    const getVerse1 = await api.getRandomVerse();
+    const currentName = getVerse1.fields.name;
+    const eVerse = new EncryptVerse(frase, getVerse1.fields.text);
+    if (eVerse.checkVerse() !== undefined) {
+      const currentVerse = eVerse.replaceChars();
+      info.name = currentName;
+      info.verse = currentVerse;
+    } else return getVerse(frase);
     return info;
   };
 
   function handleAddEventSubmit(data) {
-    dataSmth(data.name)
+    getVerse(data.name)
       .then((info) => {
         console.log(info);
+        api.postEvent({
+          name: info.name,
+          imageLink: data.imageLink,
+          owner: data.owner,
+          date: data.date,
+          address: data.address,
+          type: data.type,
+          verse: info.verse,
+        }).then((newEvent) => {
+          console.log(newEvent);
+          setEvents([newEvent, ...events]);
+          onSubmitEvent();
+        })
+          .catch((err) => new Error(`Ошибка: ${err}`));
       });
-    api.postEvent(data)
-      .then((newEvent) => {
-        setEvents([newEvent, ...events]);
-        onSubmitEvent();
-      })
-      .catch((err) => new Error(`Ошибка: ${err}`));
   }
 
   return (
