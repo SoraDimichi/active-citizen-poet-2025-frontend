@@ -144,7 +144,7 @@
       <workItem from="1608817189282" duration="284000" />
       <workItem from="1609051854903" duration="22518000" />
       <workItem from="1609080018561" duration="41000" />
-      <workItem from="1609080076680" duration="9209000" />
+      <workItem from="1609080076680" duration="16771000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1608469888554</created>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609086691634</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Фича: почти отладил алгоритм">
+      <created>1609089491667</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609089491667</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +231,8 @@
     <MESSAGE value="Фикс 2 после поломки проджекта" />
     <MESSAGE value="Фича: сделал роутинг, сингл для эвэнтов" />
     <MESSAGE value="Фича: почти отладил алгоритм + фиксы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фича: почти отладил алгоритм + фиксы" />
+    <MESSAGE value="Фича: почти отладил алгоритм" />
+    <option name="LAST_COMMIT_MESSAGE" value="Фича: почти отладил алгоритм" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
