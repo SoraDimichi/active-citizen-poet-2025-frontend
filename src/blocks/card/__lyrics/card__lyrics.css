@@ -12,4 +12,5 @@
   text-overflow: ellipsis;
   white-space: normal;
   overflow: hidden;
+  margin-bottom: 60px;
 }
