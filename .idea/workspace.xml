@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardFilter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CreateEvent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CreateEvent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Event.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PopupSubmitEvent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopupSubmitEvent.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609097320017</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="убрал фильтры">
+      <created>1609100411941</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100411941</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +245,8 @@
     <MESSAGE value="Фича: сделал роутинг, сингл для эвэнтов" />
     <MESSAGE value="Фича: почти отладил алгоритм + фиксы" />
     <MESSAGE value="Фича: почти отладил алгоритм" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фича: почти отладил алгоритм" />
+    <MESSAGE value="убрал фильтры" />
+    <option name="LAST_COMMIT_MESSAGE" value="убрал фильтры" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

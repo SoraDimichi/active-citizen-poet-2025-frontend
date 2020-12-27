@@ -53,19 +53,6 @@ export default function CreateEvent({ onAddEvent }) {
               placeholder="Введите название мероприятия"
             />
             <ErrorMessage name="name" />
-            <p className="creation-event__label">Категория</p>
-            <Field
-              name="type"
-              as="select"
-              id="type"
-              className="creation-event__input"
-            >
-              <option hidden selected> Выберите категорию </option>
-              <option value="Экология">Экология</option>
-              <option value="Транспорт">Транспорт</option>
-              <option value="Животные">Животные</option>
-              <option value="Пожилые">Пожилые</option>
-            </Field>
             <p className="creation-event__label">Организатор</p>
             <Field
               type="text"
