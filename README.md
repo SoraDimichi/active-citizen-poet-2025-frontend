@@ -12,7 +12,12 @@
 ### Дизайн-проект в Figma
 https://www.figma.com/file/RWO6IASwxdd4E889u0bFz8
 ### Описание технологий, используемых в проекте
-React, scss
-### Бэкэнд и запуск
-https://github.com/SoraDimichi/active-citizen-poet
+* react-create-app
+* fromik
+* react-router-dom
+### Бэкэнд и запуск проекта
+
+>Для правильной работы проекта, необходимо установить бэкэнд https://github.com/SoraDimichi/active-citizen-poet
+
+`npm run start` — собирает проект и запускает на 3001 порту
 
