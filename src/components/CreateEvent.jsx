@@ -6,6 +6,7 @@ import {
   ErrorMessage,
 } from 'formik';
 import * as Yup from 'yup';
+import { NavLink } from 'react-router-dom';
 
 export default function CreateEvent({ onAddEvent }) {
   const avaliableMimeType = ['application/pdf', 'image/jpeg', 'image/png'];
@@ -89,7 +90,7 @@ export default function CreateEvent({ onAddEvent }) {
             />
             <ErrorMessage name="imageLink" />
             <button type="submit" className="submit submit_type_wide submit_type_margin">
-              Создать добротворение
+              <NavLink to="/events" className="submit__link">Создать мероприятие</NavLink>
             </button>
           </Form>
         </Formik>
