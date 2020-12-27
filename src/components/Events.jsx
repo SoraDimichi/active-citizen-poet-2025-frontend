@@ -3,7 +3,6 @@ import CardFilter from './CardFilter';
 import Card from './Card';
 
 function Events({ events }) {
-  console.log(events);
   return (
     <>
       <CardFilter />

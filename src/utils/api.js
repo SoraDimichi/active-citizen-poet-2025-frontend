@@ -21,26 +21,20 @@ class Api {
     });
   }
 
-  postEvent(item) {
-    return fetch(`${this._baseUrl}/events`, {
+  postEvent(data) {
+    return this._getResponseData('/events', {
+      headers: this._headers,
       method: 'POST',
-      headers: this.headers,
-      body: JSON.stringify({
-        name: item.name,
-        imageLink: item.imageLink,
-        owner: item.owner,
-        date: item.date,
-        address: item.address,
-        type: item.type,
-      }),
-    })
-      .then((res) => {
-        if (res.ok) {
-          return res.json();
-        }
-        return Promise.reject(new Error(`Ошибка: ${res.status}`));
-      })
-      .then((res) => res);
+      body: JSON.stringify(data),
+    });
+  }
+
+  getRandomVerse(data) {
+    return this._getResponseData('/verse', {
+      headers: this._headers,
+      method: 'GET',
+      body: JSON.stringify(data),
+    });
   }
 }
 

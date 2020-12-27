@@ -10,6 +10,7 @@ import Event from './Event';
 import PopupSubmitEvent from './PopupSubmitEvent';
 
 import api from '../utils/api';
+import EncryptVerse from '../utils/EncryptVerse';
 
 function App() {
   const [events, setEvents] = React.useState([]);
@@ -30,13 +31,31 @@ function App() {
     setSubmitEventPopupOpen(false);
   }
 
+  const dataSmth = (frase) => {
+    const info = { name: '', verse: '' };
+    api.getRandomVerse().then((verseGot) => {
+      const currentName = verseGot.fields.name;
+      const eVerse = new EncryptVerse(frase, verseGot.fields.text);
+      if (eVerse.checkVerse() !== undefined) {
+        const currentVerse = eVerse.replaceChars();
+        info.name = currentName;
+        info.verse = currentVerse;
+      } else dataSmth(frase);
+    }).catch((err) => new Error(`Ошибка: ${err}`));
+    return info;
+  };
+
   function handleAddEventSubmit(data) {
+    dataSmth(data.name)
+      .then((info) => {
+        console.log(info);
+      });
     api.postEvent(data)
       .then((newEvent) => {
         setEvents([newEvent, ...events]);
         onSubmitEvent();
       })
-      .catch((err) => console.log(err));
+      .catch((err) => new Error(`Ошибка: ${err}`));
   }
 
   return (

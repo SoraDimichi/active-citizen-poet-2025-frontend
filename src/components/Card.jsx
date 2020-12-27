@@ -13,7 +13,11 @@ function Card({ event }) {
 
   return (
     <li className="card">
-      <div style={{ backgroundImage: `url('${imageLink}')` }} className="card__imageContainer" />
+      <img
+        src={imageLink}
+        className="card__image"
+        alt="#"
+      />
       <div className="card__container">
         <img src="" className="card__icon" alt="" />
         <p className="card__topic">{type}</p>

@@ -26,11 +26,12 @@ export default function CreateEvent({ onAddEvent }) {
   });
   const initialValues = {
     name: '',
+    imageLink: '',
     owner: '',
     date: '',
     address: '',
     type: '',
-    imageLink: '',
+    verse: '',
   };
   const onSubmit = (values) => onAddEvent(values);
   return (

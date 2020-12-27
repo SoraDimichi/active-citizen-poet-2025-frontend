@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="">
+    <list default="true" id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="Фича: почти отладил алгоритм + фиксы">
+      <change afterPath="$PROJECT_DIR$/src/utils/EncryptVerse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardFilter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CreateEvent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CreateEvent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Event.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PopupSubmitEvent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopupSubmitEvent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +91,9 @@
     <configuration name="localhost:3001" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3001">
       <method v="2" />
     </configuration>
+    <configuration name="EncryptVerse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/utils/EncryptVerse.js" working-dir="$PROJECT_DIR$/src/utils">
+      <method v="2" />
+    </configuration>
     <configuration name="api.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../acp2025-front/src/utils/api.js" working-dir="$PROJECT_DIR$/../acp2025-front/src/utils">
       <method v="2" />
     </configuration>
@@ -114,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.EncryptVerse.js" />
         <item itemvalue="JavaScript Debug.localhost:3001" />
         <item itemvalue="Node.js.api.js" />
         <item itemvalue="npm.build" />
@@ -138,6 +154,9 @@
       <workItem from="1608684777791" duration="609000" />
       <workItem from="1608686320125" duration="18511000" />
       <workItem from="1608817189282" duration="284000" />
+      <workItem from="1609051854903" duration="22518000" />
+      <workItem from="1609080018561" duration="41000" />
+      <workItem from="1609080076680" duration="6519000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1608469888554</created>
@@ -209,7 +228,8 @@
     <MESSAGE value="Фикс после поломки проджекта" />
     <MESSAGE value="Фикс 2 после поломки проджекта" />
     <MESSAGE value="Фича: сделал роутинг, сингл для эвэнтов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фича: сделал роутинг, сингл для эвэнтов" />
+    <MESSAGE value="Фича: почти отладил алгоритм + фиксы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Фича: почти отладил алгоритм + фиксы" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
