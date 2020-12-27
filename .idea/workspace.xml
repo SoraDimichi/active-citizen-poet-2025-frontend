@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/submit/__link/submit__link.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/submit/__link/submit__link.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,7 @@
       <workItem from="1609051854903" duration="22518000" />
       <workItem from="1609080018561" duration="41000" />
       <workItem from="1609080076680" duration="18045000" />
-      <workItem from="1609102035836" duration="817000" />
+      <workItem from="1609102035836" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1608469888554</created>
@@ -240,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609100509344</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ридми">
+      <created>1609102879117</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609102879117</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ридми">
+      <created>1609102900592</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609102900592</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +268,8 @@
     <MESSAGE value="Фича: почти отладил алгоритм + фиксы" />
     <MESSAGE value="Фича: почти отладил алгоритм" />
     <MESSAGE value="убрал фильтры" />
-    <option name="LAST_COMMIT_MESSAGE" value="убрал фильтры" />
+    <MESSAGE value="Ридми" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ридми" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
