@@ -37,14 +37,14 @@ export default function CreateEvent({ onAddEvent }) {
   return (
     <>
       <section className="creation-event">
-        <h2 className="creation-event__title">Создайте мероприятие </h2>
+        <h2 className="creation-event__title">Создайте добротворение </h2>
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
           onSubmit={onSubmit}
         >
           <Form className="creation-event__form" name="">
-            <p className="creation-event__label">Название мероприятия</p>
+            <p className="creation-event__label">Название добротворения</p>
             <Field
               type="text"
               id="name"
@@ -102,7 +102,7 @@ export default function CreateEvent({ onAddEvent }) {
             />
             <ErrorMessage name="imageLink" />
             <button type="submit" className="submit submit_type_wide submit_type_margin">
-              Создать мероприятие
+              Создать добротворение
             </button>
           </Form>
         </Formik>
