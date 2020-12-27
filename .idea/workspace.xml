@@ -4,7 +4,11 @@
     <list default="true" id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardFilter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CreateEvent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CreateEvent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Event.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +148,7 @@
       <workItem from="1608817189282" duration="284000" />
       <workItem from="1609051854903" duration="22518000" />
       <workItem from="1609080018561" duration="41000" />
-      <workItem from="1609080076680" duration="16771000" />
+      <workItem from="1609080076680" duration="18045000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1608469888554</created>
@@ -216,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609089491667</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Фича: почти отладил алгоритм">
+      <created>1609097320017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609097320017</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
