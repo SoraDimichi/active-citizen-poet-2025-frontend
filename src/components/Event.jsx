@@ -26,12 +26,6 @@ function Event({ events }) {
             <p className="card__address">{currentEvent.address}</p>
             <div className="card__line" />
             <p className="card__lyrics">{currentEvent.name}</p>
-            <div className="card__container">
-              <img src="" className="card__icon" alt="" />
-              <p className="card__topic">
-                {currentEvent.type}
-              </p>
-            </div>
             <p className="card__poem">{currentEvent.verse}</p>
 
             <form>

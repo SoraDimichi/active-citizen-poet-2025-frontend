@@ -33,7 +33,6 @@ function Dashboard() {
         </div>
         <div to="/create-event" className="events__container">
           <img src={chart} className="events__image" alt="нарисованный человек показывает на график" />
-          {/* <h3 className="events__title events__title_indent">Создать мероприятие</h3> */}
           <h3 className="events__title">Создать добротворение</h3>
           <p className="events__subtitle">Создайте свое мероприятие и найдите помощников.</p>
           <NavLink className="submit submit_type_red_color" to="/create-event">Создать добротворение</NavLink>
