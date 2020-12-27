@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="Фича: почти отладил алгоритм + фиксы">
-      <change afterPath="$PROJECT_DIR$/src/utils/EncryptVerse.js" afterDir="false" />
+    <list default="true" id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardFilter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CreateEvent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CreateEvent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Event.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PopupSubmitEvent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopupSubmitEvent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +144,7 @@
       <workItem from="1608817189282" duration="284000" />
       <workItem from="1609051854903" duration="22518000" />
       <workItem from="1609080018561" duration="41000" />
-      <workItem from="1609080076680" duration="6519000" />
+      <workItem from="1609080076680" duration="9209000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1608469888554</created>
@@ -214,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608814862982</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Фича: почти отладил алгоритм + фиксы">
+      <created>1609086691634</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609086691634</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
