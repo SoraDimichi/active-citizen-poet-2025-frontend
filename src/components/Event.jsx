@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-function Event({ events }) {
+function Event({ events, onRegistration }) {
   const { id } = useParams();
   const currentEvent = events.find((ev) => ev._id === id);
 
@@ -29,7 +29,7 @@ function Event({ events }) {
             <p className="card__poem">{currentEvent.verse}</p>
 
             <form>
-              <button type="submit" className="submit submit_type_wide">Зарегистрироваться</button>
+              <button type="button" className="submit submit_type_wide" onClick={onRegistration}>Зарегистрироваться</button>
             </form>
           </section>
         </>

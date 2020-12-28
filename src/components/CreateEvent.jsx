@@ -6,7 +6,6 @@ import {
   ErrorMessage,
 } from 'formik';
 import * as Yup from 'yup';
-import { NavLink } from 'react-router-dom';
 
 export default function CreateEvent({ onAddEvent }) {
   const avaliableMimeType = ['application/pdf', 'image/jpeg', 'image/png'];
@@ -18,12 +17,17 @@ export default function CreateEvent({ onAddEvent }) {
       .max(40, 'Название не может быть длиннее 40 символов'),
     owner: Yup.string()
       .min(2, 'Имя должно быть не короче двух символов')
-      .max(50, 'Имя не может быть длиннее 50 символов'),
+      .max(50, 'Имя не может быть длиннее 50 символов')
+      .required('Заполните это поле'),
     address: Yup.string()
       .min(10, 'Адрес должен быть не короче десяти символов')
-      .max(100, 'Адрес не может быть длиннее 100 символов'),
+      .max(100, 'Адрес не может быть длиннее 100 символов')
+      .required('Заполните это поле'),
     imageLink: Yup.string()
-      .url(avaliableMimeType, 'Недопустимый тип файла'),
+      .url(avaliableMimeType, 'Недопустимый тип файла')
+      .required('Заполните это поле'),
+    date: Yup.string()
+      .required('Заполните это поле'),
   });
   const initialValues = {
     name: '',
@@ -32,7 +36,6 @@ export default function CreateEvent({ onAddEvent }) {
     date: '',
     address: '',
     type: '',
-    verse: '',
   };
   const onSubmit = (values) => onAddEvent(values);
   return (
@@ -71,6 +74,7 @@ export default function CreateEvent({ onAddEvent }) {
               className="creation-event__input"
               placeholder="Выберете дату"
             />
+            <ErrorMessage name="date" />
             <p className="creation-event__label">Адрес проведения</p>
             <Field
               type="text"
@@ -89,9 +93,7 @@ export default function CreateEvent({ onAddEvent }) {
               placeholder="Выберете изображение"
             />
             <ErrorMessage name="imageLink" />
-            <button type="submit" className="submit submit_type_wide submit_type_margin">
-              <NavLink to="/events" className="submit__link">Создать мероприятие</NavLink>
-            </button>
+            <button type="submit" className="submit submit_type_wide submit_type_margin">Создать мероприятие</button>
           </Form>
         </Formik>
       </section>

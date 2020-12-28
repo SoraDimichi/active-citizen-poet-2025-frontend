@@ -9,7 +9,7 @@ export default function PopupSubmitEvent({ isOpen, onClose }) {
         <img src={duck} className="popup__images" alt="нарисованная утка" />
         <h3 className="popup__title">Добротворение создано</h3>
         <p className="popup__subtitle">Обработка займет несколько минут, после чего оно появится в общем списке мероприятий</p>
-        <button type="button" onClick={onClose} className="submit creation-event__submit"><NavLink to="/">К добротворениям</NavLink></button>
+        <button type="button" onClick={onClose} className="submit creation-event__submit"><NavLink to="/" className="submit__link">К добротворениям</NavLink></button>
       </div>
     </section>
   );

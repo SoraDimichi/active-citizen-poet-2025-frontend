@@ -8,6 +8,8 @@ import Events from './Events';
 import CreateEvent from './CreateEvent';
 import Event from './Event';
 import PopupSubmitEvent from './PopupSubmitEvent';
+import PopupRegistration from './PopupRegistration';
+import PopupConfirmation from './ConfirmationPopup';
 
 import api from '../utils/api';
 import EncryptVerse from '../utils/EncryptVerse';
@@ -29,6 +31,27 @@ function App() {
 
   function closePopup() {
     setSubmitEventPopupOpen(false);
+  }
+
+  const [isRegistrationPopupOpen, setRegistrationPopupOpen] = React.useState(false);
+
+  function onRegistration() {
+    setRegistrationPopupOpen(true);
+  }
+
+  function closeRegistrationPopup() {
+    setRegistrationPopupOpen(false);
+  }
+
+  const [isConfirmationPopupOpen, setConfirmationPopupOpen] = React.useState(false);
+
+  function onConfirmation() {
+    closeRegistrationPopup();
+    setConfirmationPopupOpen(true);
+  }
+
+  function closeConfirmationPopup() {
+    setConfirmationPopupOpen(false);
   }
 
   const getVerse = async (frase) => {
@@ -78,7 +101,7 @@ function App() {
             <Events events={events} />
           </Route>
           <Route path="/event/:id">
-            <Event events={events} />
+            <Event events={events} onRegistration={onRegistration} />
           </Route>
           <Route path="/create-event">
             <CreateEvent onAddEvent={handleAddEventSubmit} />
@@ -88,6 +111,8 @@ function App() {
       </main>
       <Footer />
       <PopupSubmitEvent isOpen={isSubmitEventPopupOpen} onClose={closePopup} />
+      <PopupRegistration isOpen={isRegistrationPopupOpen} onConfirmation={onConfirmation} />
+      <PopupConfirmation isOpen={isConfirmationPopupOpen} onClose={closeConfirmationPopup} />
     </div>
   );
 }
