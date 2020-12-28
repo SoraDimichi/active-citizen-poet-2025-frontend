@@ -26,7 +26,7 @@ function Event({ events, onRegistration }) {
             <p className="card__address">{currentEvent.address}</p>
             <div className="card__line" />
             <p className="card__lyrics">{currentEvent.name}</p>
-            <p className="card__poem">{currentEvent.verse}</p>
+            <p className="card__poem" dangerouslySetInnerHTML={{ __html: currentEvent.verse }} />
 
             <form>
               <button type="button" className="submit submit_type_wide" onClick={onRegistration}>Зарегистрироваться</button>

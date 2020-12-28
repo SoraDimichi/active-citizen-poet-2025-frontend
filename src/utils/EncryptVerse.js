@@ -53,7 +53,7 @@ export default class EncryptVerse {
     let encryptedVerse = this._verse;
     for (let k = this._arrOfIndexArr().length - 1; k >= 0; k--) {
       for (let i = this._arrOfIndexArr()[k].length - 1; i >= 0; i--) {
-        encryptedVerse = `${encryptedVerse.substring(0, this._arrOfIndexArr()[k][i])}<span className="word-color-${k + 1}">${encryptedVerse.charAt(this._arrOfIndexArr()[k][i])}</span>${encryptedVerse.substring(this._arrOfIndexArr()[k][i] + 1)}`;
+        encryptedVerse = `${encryptedVerse.substring(0, this._arrOfIndexArr()[k][i])}<span class="card__poem_char-color${k + 1}">${encryptedVerse.charAt(this._arrOfIndexArr()[k][i])}</span>${encryptedVerse.substring(this._arrOfIndexArr()[k][i] + 1)}`;
       }
     }
     return encryptedVerse;
