@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import {
   Form,
   Formik,
@@ -42,14 +41,14 @@ export default function CreateEvent({ onAddEvent }) {
   return (
     <>
       <section className="creation-event">
-        <h2 className="creation-event__title">Создайте мероприятие </h2>
+        <h2 className="creation-event__title">Создайте добротворение </h2>
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
           onSubmit={onSubmit}
         >
           <Form className="creation-event__form" name="">
-            <p className="creation-event__label">Название мероприятия</p>
+            <p className="creation-event__label">Название добротворения</p>
             <Field
               type="text"
               id="name"
@@ -58,19 +57,6 @@ export default function CreateEvent({ onAddEvent }) {
               placeholder="Введите название мероприятия"
             />
             <ErrorMessage name="name" />
-            <p className="creation-event__label">Категория</p>
-            <Field
-              name="type"
-              as="select"
-              id="type"
-              className="creation-event__input"
-            >
-              <option hidden selected> Выберите категорию </option>
-              <option value="Экология">Экология</option>
-              <option value="Транспорт">Транспорт</option>
-              <option value="Животные">Животные</option>
-              <option value="Пожилые">Пожилые</option>
-            </Field>
             <p className="creation-event__label">Организатор</p>
             <Field
               type="text"
@@ -107,9 +93,7 @@ export default function CreateEvent({ onAddEvent }) {
               placeholder="Выберете изображение"
             />
             <ErrorMessage name="imageLink" />
-            <button type="submit" className="submit submit_type_wide submit_type_margin">
-              <NavLink to="/events" className="submit__link">Создать мероприятие</NavLink>
-            </button>
+            <button type="submit" className="submit submit_type_wide submit_type_margin">Создать мероприятие</button>
           </Form>
         </Formik>
       </section>

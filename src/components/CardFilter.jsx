@@ -3,7 +3,7 @@ import React from 'react';
 function CardFilter() {
   return (
     <section className="page-events">
-      <h3 className="page-events__title">Мероприятия поблизости</h3>
+      <h3 className="page-events__title">Добротворения поблизости</h3>
       <nav>
         <ul className="page-events__content-info">
           <li className="page-events__column-links">Экология</li>
