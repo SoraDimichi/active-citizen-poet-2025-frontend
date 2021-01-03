@@ -1,0 +1,16 @@
+@import url('./__image/card__image.css');
+@import url('./__title/card__title.css');
+@import url('./__address/card__address.css');
+@import url('./__date/card__date.css');
+
+.card {
+    display: grid;
+    grid-template-columns: max-content 12px 1fr;
+    grid-template-rows: 180px 32px 30px 32px;
+}
+
+@media screen and (max-width: 937px) {
+    .card {
+        grid-template-rows: 240px 32px 30px 32px;
+    }
+}

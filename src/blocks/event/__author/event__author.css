@@ -1,0 +1,9 @@
+.event__author {
+  width: 438px;
+  /* height: 56px;  */
+  font-weight: 500;
+  font-size: 48px;
+  font-family: Montserrat Alternates, sans-serif;
+  line-height: 59px;
+  text-align: center;
+}

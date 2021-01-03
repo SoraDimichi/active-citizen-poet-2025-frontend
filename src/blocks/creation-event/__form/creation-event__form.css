@@ -1,0 +1,7 @@
+.creation-event__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 604px;
+    width: 100%;
+}

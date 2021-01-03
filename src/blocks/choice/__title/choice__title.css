@@ -1,0 +1,7 @@
+.choice__title {
+  grid-area: 3 / 2 / 4 / 3;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  font-weight: 500;
+}

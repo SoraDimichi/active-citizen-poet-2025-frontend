@@ -1,0 +1,14 @@
+.event__date {
+  grid-area: 12 / 3 / 13 / 4;
+  margin-top: 0;
+  width: 350px;
+  font-size: 18px;
+  line-height: 21px;
+  /* color: #086788; */
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  text-align: right;
+  justify-self: right;
+  font-style: italic;
+  color: rgba(196, 196, 196, 1);
+}

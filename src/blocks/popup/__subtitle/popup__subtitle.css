@@ -1,0 +1,11 @@
+.popup__subtitle {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  width: 502px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}

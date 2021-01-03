@@ -1,0 +1,22 @@
+.choice__image_withGirls {
+  margin-bottom: 13%;
+}
+
+@media screen and (max-width: 1024px) {
+  .choice__image_withGirls {
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .choice__image_withGirls {
+    margin-bottom: 7%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .choice__image_withGirls {
+    margin-bottom: 20px;
+    width: 130%
+  }
+}

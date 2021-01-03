@@ -1,0 +1,24 @@
+@import url('./__title/choices__title.css');
+
+.choices {
+    grid-area: 2 / 3 / 3 / 4;
+    display: grid;
+    grid-template-rows: min-content 100px max-content 80px;
+    align-content: space-around;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 890px) {
+    .choices {
+        grid-template-rows: min-content 80px max-content 120px max-content 120px;
+    }
+}
+
+
+@media screen and (max-width: 410px) {
+    .choices {
+        grid-template-rows: min-content 80px max-content 80px max-content 80px;
+    }
+}
+
+

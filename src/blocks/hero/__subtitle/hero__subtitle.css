@@ -1,0 +1,21 @@
+.hero__subtitle {
+  font-size: 21px;
+  line-height: 25px;
+  text-align: left;
+  font-weight: 300;
+  grid-area: 5 / 2 / 6 / 3;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero__subtitle {
+    grid-area: 6 / 2 / 7 / 3;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero__subtitle {
+    grid-area: 6 / 1 / 7 / 4;
+    text-align: left;
+  }
+}

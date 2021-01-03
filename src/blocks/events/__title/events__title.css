@@ -1,0 +1,10 @@
+.events__title {
+  grid-area: 2 / 2 / 3 / 3;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: Montserrat Alternates, sans-serif;
+  line-height: 44px;
+  margin: 0;
+  text-align: center;
+  justify-self: center;
+}

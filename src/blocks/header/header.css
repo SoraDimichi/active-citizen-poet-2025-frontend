@@ -1,0 +1,26 @@
+@import url('./__logo/header__logo.css');
+@import url('./__link/header_link.css');
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 24px 140px minmax(1px, 1140px) 24px 1fr;
+  grid-template-rows: 24px 80px 24px;
+  margin-top: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    grid-template-columns: 1fr 36px 140px minmax(1px, 1140px) 36px 1fr;
+    grid-template-rows: 24px 80px 24px;
+
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    grid-template-columns: 1fr 48px 140px minmax(1px, 1140px) 48px 1fr;
+    grid-template-rows: 12px 80px 12px;
+  }
+}

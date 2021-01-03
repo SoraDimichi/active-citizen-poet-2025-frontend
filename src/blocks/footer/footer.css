@@ -1,0 +1,60 @@
+@import url(./__socLink/footer__socLink.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__socLinkLogo/footer__socLinkLogo.css);
+
+.footer {
+  display: grid;
+  background-color: #bfebf5;
+  grid-template-columns: 1fr 24px 200px minmax(1px, 930px) 150px 24px 1fr;
+  grid-template-rows: 30px 20px 30px;
+  margin-top: 0;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    grid-template-columns: 1fr 24px 200px minmax(1px, 930px) 150px 24px 1fr;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    grid-template-columns: 1fr 24px 200px minmax(1px, 930px) 150px 24px 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr minmax(1px, 930px) 1fr 1fr 1fr;
+    grid-template-rows: 30px 30px 20px 40px;
+  }
+}
+
+/* @media screen and (max-width: 1030px) {
+  .footer {
+
+    margin-top: 92px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .footer {
+    margin-top: 20%;
+    max-width: 186px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+  }
+} */
+
+/*@media screen and (max-width: 350px) {
+  .footer {
+    margin-top: 20%;
+    max-width: 186px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+  }
+}*/

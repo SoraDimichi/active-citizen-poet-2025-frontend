@@ -1,0 +1,5 @@
+.choice__button {
+  grid-area: 7 / 2 / 8 / 3;
+  text-align: center;
+  padding: 6px 24px 6px 24px;
+}

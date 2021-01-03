@@ -1,7 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="sorad &lt;soradimichi@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1lst39Sxcp3boV6JjG8ShBtTpAy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/blocks/event" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="C:\Users\sorad\AppData\Roaming\npm\node_modules\stylelint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend\src\blocks\event" />
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend\src\blocks" />
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend\src\blocks\choice\__image\_withGirls" />
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend" />
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend\src\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend\src\blocks\event" />
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend\src\blocks\events" />
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend\src\images" />
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend\src\blocks\main" />
+      <recent name="C:\Users\sorad\WebstormProjects\active-citizen-poet-2025-frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:3001" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3001">
+      <method v="2" />
+    </configuration>
+    <configuration name="EncryptVerse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/utils/EncryptVerse.js" working-dir="$PROJECT_DIR$/src/utils">
+      <method v="2" />
+    </configuration>
+    <configuration name="api.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../acp2025-front/src/utils/api.js" working-dir="$PROJECT_DIR$/../acp2025-front/src/utils">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.EncryptVerse.js" />
+        <item itemvalue="JavaScript Debug.localhost:3001" />
+        <item itemvalue="Node.js.api.js" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d2e3f04-6a5f-4bab-a0b6-691e87449112" name="Default Changelist" comment="" />
+      <created>1608397424814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608397424814</updated>
+      <workItem from="1608397425963" duration="23820000" />
+      <workItem from="1608556095489" duration="16000" />
+      <workItem from="1608556199821" duration="7777000" />
+      <workItem from="1608575583480" duration="22019000" />
+      <workItem from="1608680516849" duration="68000" />
+      <workItem from="1608680877259" duration="2866000" />
+      <workItem from="1608684777791" duration="609000" />
+      <workItem from="1608686320125" duration="18511000" />
+      <workItem from="1608817189282" duration="284000" />
+      <workItem from="1609051854903" duration="22518000" />
+      <workItem from="1609080018561" duration="41000" />
+      <workItem from="1609080076680" duration="18045000" />
+      <workItem from="1609102035836" duration="4398000" />
+    </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <created>1608469888554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608469888554</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1st commit">
+      <created>1608471179308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608471179308</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixes before deployment">
+      <created>1608471591464</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608471591464</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixes before deployment">
+      <created>1608472669044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608472669044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixes">
+      <created>1608554014173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608554014173</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Фикс после поломки проджекта">
+      <created>1608688136308</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608688136308</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Фикс 2 после поломки проджекта">
+      <created>1608734568770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608734568770</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Фича: сделал роутинг, сингл для эвэнтов">
+      <created>1608814862982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608814862982</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Фича: почти отладил алгоритм + фиксы">
+      <created>1609086691634</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609086691634</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Фича: почти отладил алгоритм">
+      <created>1609089491667</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609089491667</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Фича: почти отладил алгоритм">
+      <created>1609097320017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609097320017</updated>
+    </task>
+    <task id="LOCAL-00012" summary="убрал фильтры">
+      <created>1609100411941</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100411941</updated>
+    </task>
+    <task id="LOCAL-00013" summary="убрал фильтры">
+      <created>1609100509344</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100509344</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ридми">
+      <created>1609102879117</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609102879117</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ридми">
+      <created>1609102900592</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609102900592</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ридми">
+      <created>1609103480046</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609103480046</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ридми">
+      <created>1609145559404</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609145559404</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Ридми">
+      <created>1609145631450</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609145631450</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Ридми">
+      <created>1609145897729</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609145897729</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Фикс: рендеринг стихов">
+      <created>1609150380729</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609150380729</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Фикс: доверстал некоторый объем страниц">
+      <created>1609653616807</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609653616807</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1st commit" />
+    <MESSAGE value="fixes before deployment" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="Фикс после поломки проджекта" />
+    <MESSAGE value="Фикс 2 после поломки проджекта" />
+    <MESSAGE value="Фича: сделал роутинг, сингл для эвэнтов" />
+    <MESSAGE value="Фича: почти отладил алгоритм + фиксы" />
+    <MESSAGE value="Фича: почти отладил алгоритм" />
+    <MESSAGE value="убрал фильтры" />
+    <MESSAGE value="Ридми" />
+    <MESSAGE value="Фикс: рендеринг стихов" />
+    <MESSAGE value="Фикс: доверстал некоторый объем страниц" />
+    <option name="LAST_COMMIT_MESSAGE" value="Фикс: доверстал некоторый объем страниц" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
