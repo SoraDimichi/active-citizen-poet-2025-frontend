@@ -6,7 +6,7 @@ import headerLogo from '../images/logo_web.svg';
 function Header() {
   return (
     <header className="header">
-      <NavLink to="/">
+      <NavLink className="header__link" to="/">
         <img
           className="header__logo"
           src={headerLogo}

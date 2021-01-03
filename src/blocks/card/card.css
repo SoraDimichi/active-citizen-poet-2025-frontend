@@ -1,19 +1,16 @@
 @import url('./__image/card__image.css');
-@import url('./__topic/card__topic.css');
-@import url('./__lyrics/card__lyrics.css');
+@import url('./__title/card__title.css');
 @import url('./__address/card__address.css');
 @import url('./__date/card__date.css');
-@import url('./__container/card__container.css');
-@import url('./__icon/card__icon.css');
-@import url('./__author/card__author.css');
-@import url('./__poem/card__poem.css');
-@import url('./__line/card__line.css');
 
+.card {
+    display: grid;
+    grid-template-columns: max-content 12px 1fr;
+    grid-template-rows: 180px 32px 30px 32px;
+}
 
-.card{
-    width: 350px;
-    height: 446px;
-    display: flex;
-    flex-direction: column;
-    /* border: greenyellow solid 1px; */
+@media screen and (max-width: 937px) {
+    .card {
+        grid-template-rows: 240px 32px 30px 32px;
+    }
 }

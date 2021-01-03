@@ -1,0 +1,44 @@
+@import url("./__title/choice__title.css");
+@import url("./__subtitle/choice__subtitle.css");
+@import url('./__image/choice__image.css');
+@import url('./__button/choice__button.css');
+
+.choice {
+  display: grid;
+  grid-template-columns: 1fr 320px 1fr;
+  grid-template-rows: min-content 0 min-content 28px 45px 44px min-content;
+}
+
+.choice:nth-of-type(1) {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.choice:nth-of-type(2) {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+@media screen and (max-width: 890px) {
+  .choice {
+    grid-template-rows: min-content 0 min-content 28px min-content 44px min-content;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .choice:nth-of-type(1) {
+    grid-area: 3 / 1 / 4 / 4;
+  }
+}
+
+
+
+@media screen and (max-width: 890px) {
+  .choice:nth-of-type(2) {
+    grid-area: 5 / 1 / 6 / 4;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .choice {
+    grid-template-columns: 1fr fit-content(320px) 1fr;
+  }
+}

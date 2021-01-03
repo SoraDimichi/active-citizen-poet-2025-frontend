@@ -1,15 +1,5 @@
 .header__link {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  text-decoration: none;
-  color: #ffffff;
-  margin-right: 18px;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
+  grid-area: 2 / 3 / 3 / 4;
 }
 
-.header__link :hover {
-  opacity: 0.6;
-}
+

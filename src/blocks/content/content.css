@@ -1,12 +1,18 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 1110px;
+  display: grid;
+  grid-template-columns: 1fr 24px minmax(1px ,1280px) 24px 1fr;
+  grid-auto-flow: row;
 }
 
 @media screen and (max-width: 1024px) {
   .content {
-    padding-left: 43px;
+    grid-template-columns: 1fr 36px minmax(1px ,1280px) 36px 1fr;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .content {
+    grid-template-columns: 1fr 48px minmax(1px, 1280px) 48px 1fr;
+    overflow: hidden;
   }
 }

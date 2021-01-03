@@ -1,0 +1,38 @@
+.event__poem {
+  grid-area: 10 / 3 / 11 / 4;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  white-space: pre-wrap;
+  justify-self: center;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1024px) {
+  .event__poem {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.event__poem_char-color1 {
+  color: #F96900;
+  font-weight: 500;
+}
+
+.event__poem_char-color2 {
+  color: #F9005A;
+  font-weight: 500;
+}
+
+.event__poem_char-color3 {
+  color: #0075FF;
+  font-weight: 500;
+}
+
+.event__poem_char-color4 {
+  color: #870AEB;
+  font-weight: 500;
+}

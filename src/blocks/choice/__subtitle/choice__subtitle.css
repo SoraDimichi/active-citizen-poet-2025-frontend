@@ -1,0 +1,7 @@
+.choice__subtitle {
+  grid-area: 5 / 2 / 6 / 3;
+  margin: 0;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 300;
+}

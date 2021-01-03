@@ -3,4 +3,7 @@
   font-family: Rubik, Arial, sans-serif;
   font-style: normal;
   color: #086788;
+  display: grid;
+  align-content: space-between;
+  min-height: 100vh;
 }

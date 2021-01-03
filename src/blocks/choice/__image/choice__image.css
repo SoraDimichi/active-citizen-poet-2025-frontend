@@ -1,0 +1,31 @@
+.choice__image {
+  justify-self: center;
+  grid-area: 1 / 1 / 2 / 4;
+  width: 75%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .choice__image {
+    width: 90%
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .choice__image {
+    width: 540px;
+  }
+}
+
+
+@media screen and (max-width: 645px) {
+  .choice__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .choice__image {
+    width: 110%;
+  }
+}

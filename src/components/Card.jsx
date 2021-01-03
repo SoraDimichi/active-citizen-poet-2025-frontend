@@ -12,12 +12,11 @@ function Card({ event }) {
 
   return (
     <li className="card">
-      <img
-        src={imageLink}
+      <div
+        style={{ backgroundImage: `url('${imageLink}')` }}
         className="card__image"
-        alt="#"
       />
-      <NavLink className="card__lyrics" to={`event/${_id}`}>{name}</NavLink>
+      <NavLink className="card__title" to={`event/${_id}`}>{name}</NavLink>
       <p className="card__address">{address}</p>
       <p className="card__date">{date}</p>
     </li>

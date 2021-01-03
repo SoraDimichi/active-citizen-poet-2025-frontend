@@ -8,34 +8,24 @@ function Event({ events, onRegistration }) {
   return (
     <>
       {currentEvent && (
-        <>
-          <section className="intro">
-            <img
-              src={currentEvent.imageLink}
-              className="intro__image"
-              alt="#"
-            />
-          </section>
-          <section className="description_event">
-            <h3 className="card__author">{currentEvent.owner}</h3>
-            <p className="card__date">
-              (
-              {currentEvent.date}
-              )
-            </p>
-            <p className="card__address">{currentEvent.address}</p>
-            <div className="card__line" />
-            <p className="card__lyrics">{currentEvent.name}</p>
-            <p className="card__poem" dangerouslySetInnerHTML={{ __html: currentEvent.verse }} />
-
-            <form>
-              <button type="button" className="submit submit_type_wide" onClick={onRegistration}>Зарегистрироваться</button>
-            </form>
-          </section>
-        </>
+      <section className="event">
+        <img
+          src={currentEvent.imageLink}
+          className="event__image"
+          alt="#"
+        />
+        <p className="event__title">{currentEvent.name}</p>
+        <div className="event__line" />
+        <p className="event__poem" dangerouslySetInnerHTML={{ __html: currentEvent.verse }} />
+        <p className="event__address">{currentEvent.address}</p>
+        <p className="event__date">{currentEvent.date}</p>
+        <button type="button" className="event__button submit submit_type_wide" onClick={onRegistration}>Написать автору</button>
+      </section>
       )}
     </>
   );
 }
 
 export default Event;
+
+// <h3 className="event__author">{currentEvent.owner}</h3>

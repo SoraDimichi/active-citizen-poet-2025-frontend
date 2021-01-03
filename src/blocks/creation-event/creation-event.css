@@ -4,6 +4,8 @@
 @import url("./__input/creation-event__input.css");
 
 .creation-event {
+  grid-area: 1 / 3 / 2 / 4;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;

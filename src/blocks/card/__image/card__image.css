@@ -1,5 +1,12 @@
 .card__image{
-    width: 350px;
-    height: 180px;
-    /* border: aqua 1px solid; */
+    grid-area: 1 / 1 / 2 / 4;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 480px) {
+    .card__image {
+        margin: 0 -24% 0 -24%
+    }
 }
